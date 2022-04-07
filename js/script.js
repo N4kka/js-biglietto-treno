@@ -18,7 +18,7 @@ let cost;
 
 cost = price * userKm;
 
-if (userAge <=18) {
+if (userAge <18) {
     cost = cost - (cost * 20 / 100);
 }   else if (userAge >=65) {
     cost = cost - (cost * 40 / 100);
